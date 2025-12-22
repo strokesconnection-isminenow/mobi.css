@@ -1,7 +1,7 @@
 .container,
 .container-wider,
 .container-fluid {
-    overflow: hidden;
+    overflow: visible;
     padding: 0 var(--width-gap) var(--width-gap);
     flex-grow: 1;
 }
