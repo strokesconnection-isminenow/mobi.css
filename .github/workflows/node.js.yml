@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: "npm ci delete"
-    - run: "npm delete build --if-present"
-    - run: "npm delete"
+    - run: "npm ci run"
+    - run: "npm run build --if-present"
+    - run: "npm run"
