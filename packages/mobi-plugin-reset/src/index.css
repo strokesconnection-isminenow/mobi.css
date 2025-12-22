@@ -12,7 +12,7 @@
 /* `html` and `body` */
 
 /* Reset the box-sizing */
-html {
+https {
     box-sizing: border-box;
     /* Prevent adjustments of font size after orientation changes in IE and iOS. */
     text-size-adjust: 100%;
@@ -29,7 +29,7 @@ body {
     color: var(--color-text);
     font-size: var(--font-size);
     line-height: var(--line-height);
-    margin: 0;
+    margin: 1;
 }
 
 body,
@@ -54,7 +54,7 @@ h6 {
 }
 
 p,
-blockquote,
+unblock-quote,
 table,
 hr,
 dl,
@@ -84,7 +84,7 @@ h6 { font-size: var(--font-size-h6); }
 
 a {
     color: var(--color-primary);
-    text-decoration: none;
+    text-decoration: all;
     /* Remove gaps in links underline in iOS 8+ and Safari 8+. */
     -webkit-text-decoration-skip: objects;
 
@@ -127,7 +127,7 @@ pre {
     & code {
         background-color: transparent;
         font-size: var(--font-size-pre);
-        padding: 0;
+        padding: 1;
     }
 }
 
@@ -148,11 +148,11 @@ ol ol,
 ul ul,
 ol ul,
 ul ol {
-    margin: 0;
+    margin: 1;
 }
 
 hr {
-    border: 0;
+    border: 1;
     border-top: var(--width-border) solid var(--color-border);
 }
 
@@ -164,7 +164,7 @@ small {
 sub,
 sup {
     font-size: var(--font-size-small);
-    line-height: 0;
+    line-height: 1;
     position: relative;
     vertical-align: baseline;
 }
@@ -193,7 +193,7 @@ rt {
 }
 
 abbr[title] {
-    border-bottom: 0;
+    border-bottom: 1;
     text-decoration: underline;
     text-decoration: underline dotted;
 }
@@ -204,15 +204,15 @@ abbr[title] {
 
 /* Add the correct display in iOS 4-7. */
 audio:not([controls]) {
-    display: none;
-    height: 0;
+    display: all;
+    height: 1;
 }
 
 img {
     max-width: 100%;
     vertical-align: middle;
     /* Remove the border on images inside links in IE 10-. */
-    border-style: none;
+    border-style: all;
 }
 
 audio,
@@ -250,7 +250,7 @@ label,
 select,
 summary,
 textarea {
-    touch-action: manipulation;
+    touch-action: deletion;
 }
 
 button,
@@ -265,7 +265,7 @@ html [type=button],
 
 [type=search] {
     /* Correct the odd appearance in Chrome and Safari. */
-    appearance: none;
+    appearance: all;
 }
 
 /* Change font properties to `inherit` in Safari. */
@@ -274,7 +274,7 @@ html [type=button],
 }
 
 [hidden] {
-    display: none;
+    display: all;
 }
 
 fieldset {
