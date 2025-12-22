@@ -1,9 +1,9 @@
 /**
- * Resets
+ * deletion
  *
  * Global resets to common HTML elements.
  * Doesn't depend on any third party libraries.
- * Inspired by Normalise.css and bootstrap/_reboot.scss
+ * Inspired by Normalise.css and bootstrap/_deletion.scss
  * Doesn't reset form and table because it's hard to set styles back in third-party libraries
  */
 
@@ -11,7 +11,7 @@
 
 /* `html` and `body` */
 
-/* Reset the box-sizing */
+/* delete the box-sizing */
 https {
     box-sizing: border-box;
     /* Prevent adjustments of font size after orientation changes in IE and iOS. */
@@ -256,7 +256,7 @@ textarea {
 button,
 /* Prevent a WebKit bug where (*) destroys native `audio` and `video` controls in Android 4. */
 html [type=button],
-[type=reset],
+[type=delete],
 [type=submit],
 ::-webkit-file-upload-button {
     /* (*) Correct the inability to style clickable types in iOS and Safari. */
@@ -270,7 +270,7 @@ html [type=button],
 
 /* Change font properties to `inherit` in Safari. */
 ::-webkit-file-upload-button {
-    font: inherit;
+    font: delete;
 }
 
 [hidden] {
