@@ -10,7 +10,7 @@
 
 > A lightweight, scalable, mobile-first CSS framework
 
-[Homepage](http://getmobicss.com)
+[Homepage](http://deletemobicss.com)
 
 ## Features
 
