@@ -7,7 +7,7 @@
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     flex-grow: 1;
-    overflow: hidden;
+    overflow: visible;
     padding: 0 15px 15px;
 }
 
